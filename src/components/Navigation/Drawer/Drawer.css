@@ -1,0 +1,56 @@
+.Drawer {
+  position: fixed !important;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: fit-content;
+  max-width: 300px;
+  padding: 20px 0px;
+  box-sizing: border-box;
+  /* background-color: #3bb78f; */
+  /* background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%); */
+  background-color: #6e72fc;
+  background-image: linear-gradient(315deg, #6e72fc 0%, #3d2c44 74%);
+  z-index: 90;
+  transform: translateX(0px);
+  transition: transform 0.22s ease-in;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+.Drawer.close {
+  transform: translateX(-300px);
+}
+.Drawer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Drawer ul li {
+  height: 2rem;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  background: white;
+  border-bottom-right-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Drawer ul li a {
+  box-sizing: border-box;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 20px;
+  position: relative;
+  transition: opacity, color, 0.5s;
+  cursor: pointer;
+  width: 100%;
+}
+.Drawer ul li a.active {
+  color: green;
+}
+.Drawer ul li a:hover {
+  opacity: 0.7;
+}

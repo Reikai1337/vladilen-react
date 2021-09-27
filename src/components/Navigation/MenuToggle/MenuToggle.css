@@ -1,0 +1,14 @@
+.Menu {
+  position: fixed !important;
+  z-index: 100;
+  left: 0px;
+}
+.Menu:hover {
+  opacity: 0.7;
+}
+.Menu.open {
+  transition-duration: 0.22s;
+  transition-property: left;
+  left: 180px;
+}
+

@@ -1,0 +1,10 @@
+.CurrentAnswers {
+  display: flex;
+  flex-direction: column;
+}
+
+.CurrentAnswers span svg {
+  /* margin-top: 5px; */
+  /* display: table-cell; */
+  vertical-align: middle;
+}

@@ -1,0 +1,31 @@
+/* .Input {
+  font-size: 1rem;
+  height: 2.5rem;
+  margin: 1rem 0px;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  background-color: rgb(158, 177, 197);
+  transition: background-color 0.22s ease;
+  z-index: 1;
+}
+.s {
+  width: 10rem;
+}
+.m {
+  width: 15rem;
+}
+.l {
+  width: 20rem;
+}
+.Input:focus {
+  background-color: whitesmoke;
+}
+.Input::placeholder {
+  color: black;
+}
+.Input:focus::placeholder {
+  color: transparent;
+} */
